@@ -634,7 +634,11 @@
     border-radius: 50px;
     width: 300px;
 }
-
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-dose__single {
+        width: 250px;
+    }
+}
 #es-magne-b6.es-magne-b6 .es-dose__circle {
     border: 2px solid #001883;
     border-radius: 222px;
@@ -787,7 +791,11 @@
     text-align: center;
     font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
 }
-
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-choose__name {
+        margin-block: 10px;
+    }
+}
 #es-magne-b6.es-magne-b6 .es-choose__text {
     margin: 0;
     padding: 0;
@@ -800,7 +808,11 @@
     /* padding-bottom: 32px; */
     font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
-
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-choose__text {
+        margin-bottom: 10px;
+    }
+}
 #es-magne-b6.es-magne-b6 .es-ingredients__img {
     max-width: 100%;
     display: block;
@@ -1089,6 +1101,11 @@
     cursor: pointer;
     font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
+        font-size: 16px;
+    }
+}
 
 #es-magne-b6.es-magne-b6 .es-cross__name {
     margin: 24px 0;
@@ -1229,6 +1246,7 @@
     font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.125rem);
     text-align: left;
     margin-bottom: 32px;
+    word-wrap: break-word;
 }
 
 #es-magne-b6.es-magne-b6 .es-footer__version {
@@ -1252,9 +1270,13 @@
     text-align: left;
     font-size: clamp(1rem, 0.7083rem + 1.4583vw, 1.4375rem);
 }
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-footer__img {
+        max-width: 100px;
+    }
+}
 
-
-@media screen and (min-width: 375px){
+@media screen and (min-width: 375px) {
     
     #es-magne-b6.es-magne-b6 .es-kv__background {
         /* display: block; */
